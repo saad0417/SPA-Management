@@ -1,15 +1,19 @@
 import Login from './Login'
 import Home from './Home'
-import Signup from './Signup'
 import SideRays from './background/SideRays'
 import Navbar from './Navbar'
-import Login1 from './Login1'
+import Button from './Button'
+import Footer from './Footer'
+import Dashboard from './Dashboard'
+import DotGridSpotlight from './dot-grid-spotlight'
 
 export {
     Login,
     Home,
-    Signup,
     SideRays,
     Navbar,
-    Login1
+    Button,
+    Footer,
+    Dashboard,
+    DotGridSpotlight
 }

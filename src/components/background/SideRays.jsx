@@ -189,11 +189,11 @@ void main() {
   }, [speed, rayColor1, rayColor2, intensity, spread, origin, tilt, saturation, blend, falloff, opacity]);
 
   return (
-    <div
-      ref={containerRef}
-      className={`relative w-full h-full -z-1000 overflow-hidden pointer-events-none ${className}`.trim()}
-    />
-  );
+  <div
+    ref={containerRef}
+    className={`fixed inset-0 z-0 overflow-hidden pointer-events-none ${className}`.trim()}
+  />
+);
 };
 
 export default SideRays;
